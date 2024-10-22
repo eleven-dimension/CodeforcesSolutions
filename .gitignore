@@ -1,0 +1,19 @@
+# Ignore all files by default
+*
+
+# Do not ignore directories, so we can re-include specific files
+!*/
+
+# Include cpp, md, png, py, txt and bash files
+!*.cpp
+!*.md
+!*.clang-format
+!*.png
+!*.txt
+!*.sh
+
+# Do not ignore the .gitignore file itself
+!.gitignore
+
+# Ignore the 'judge' folder
+judge/
